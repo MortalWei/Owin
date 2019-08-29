@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdiOwin", "OrdiOwin\OrdiOwin.csproj", "{E164EAC2-8194-4DCD-8E79-08EA80570F99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{64C0D610-2B3A-471F-93E2-E936CD834438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdiOwin.Core", "OrdiOwin.Core\OrdiOwin.Core.csproj", "{ACCF610D-71F9-4854-9BA7-2DC8DC07B667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{A99D66EB-B451-4DFC-AA4E-4CAB961AE307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdiOwin.Controller", "OrdiOwin.Controller\OrdiOwin.Controller.csproj", "{D4220142-9764-4288-8CEE-4EA6B2870978}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E164EAC2-8194-4DCD-8E79-08EA80570F99}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E164EAC2-8194-4DCD-8E79-08EA80570F99}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E164EAC2-8194-4DCD-8E79-08EA80570F99}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E164EAC2-8194-4DCD-8E79-08EA80570F99}.Release|anycpu.Build.0 = Release|anycpu
+		{ACCF610D-71F9-4854-9BA7-2DC8DC07B667}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{ACCF610D-71F9-4854-9BA7-2DC8DC07B667}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{ACCF610D-71F9-4854-9BA7-2DC8DC07B667}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{ACCF610D-71F9-4854-9BA7-2DC8DC07B667}.Release|anycpu.Build.0 = Release|Any CPU
+		{D4220142-9764-4288-8CEE-4EA6B2870978}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{D4220142-9764-4288-8CEE-4EA6B2870978}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{D4220142-9764-4288-8CEE-4EA6B2870978}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{D4220142-9764-4288-8CEE-4EA6B2870978}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACCF610D-71F9-4854-9BA7-2DC8DC07B667} = {64C0D610-2B3A-471F-93E2-E936CD834438}
+		{D4220142-9764-4288-8CEE-4EA6B2870978} = {A99D66EB-B451-4DFC-AA4E-4CAB961AE307}
+	EndGlobalSection
+EndGlobal
