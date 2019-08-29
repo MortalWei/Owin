@@ -58,7 +58,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetDir)\ $(SolutionDir)\Service</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>false</Optimize>
@@ -66,8 +67,10 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
-    <DebugType></DebugType>
-    <DefineConstants></DefineConstants>
+    <DebugType>
+    </DebugType>
+    <DefineConstants>
+    </DefineConstants>
     <ExternalConsole>false</ExternalConsole>
     <CustomCommands>
       <CustomCommands>
