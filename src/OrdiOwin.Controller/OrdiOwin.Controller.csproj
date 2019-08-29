@@ -23,7 +23,7 @@
       <CustomCommands>
         <Command>
           <type>AfterBuild</type>
-          <command>cp -R $(TargetDir)/ $(SolutionDir)/Service</command>
+          <command>cp -R $(TargetDir)\ $(SolutionDir)\Service</command>
         </Command>
       </CustomCommands>
     </CustomCommands>
@@ -38,7 +38,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Formatting">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
@@ -58,4 +58,8 @@
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
 </Project>
